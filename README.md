@@ -17,7 +17,7 @@ Sends a message to your Minecraft server using the following command using the n
 ### whitelist *username*
 Adds a Minecraft user with the provided username to the server's whitelist.
 
-## Getting Started
+## ✨ Getting Started
 There's not really much to this app. Just run something like the following:
 
 ```
