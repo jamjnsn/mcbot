@@ -7,7 +7,7 @@ McBot is meant to run in a Docker container if only because I wanted to learn ho
 
 Enjoy! 😊
 
-## Commands
+## 💬 Commands
 ### say *message*
 Sends a message to your Minecraft server using the following command using the nickname of the user executing the command: 
 ```
