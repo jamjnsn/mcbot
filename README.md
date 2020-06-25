@@ -6,7 +6,7 @@ McBot is a super basic Discord bot for interacting with RCON on a Minecraft serv
 McBot is meant to run in a Docker container if only because I wanted to learn how to work with Docker containers.
 
 Enjoy! 😊
----
+
 ## 💬 Commands
 ### say *message*
 Sends a message to your Minecraft server using the following command using the nickname of the user executing the command: 
@@ -16,7 +16,6 @@ Sends a message to your Minecraft server using the following command using the n
 
 ### whitelist *username*
 Adds a Minecraft user with the provided username to the server's whitelist.
-
 
 ## ✨ Getting Started
 There's not really much to this app. Just run something like the following:
@@ -32,7 +31,6 @@ docker run \
   --restart unless-stopped \
   jamjnsn/mcbot
 ```
----
 ### Environment Variables
 #### `COMMAND_PREFIX`
 Character that will proceed all commands. Defaults to `/`.
