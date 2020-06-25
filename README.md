@@ -8,13 +8,13 @@ McBot is meant to run in a Docker container if only because I wanted to learn ho
 Enjoy! 😊
 
 ## Commands
-### say *<message>*
+### say *message*
 Sends a message to your Minecraft server using the following command using the nickname of the user executing the command: 
 ```
 /tellraw @a {"text":"[<nickname>] <message>","color":"#7289da"}
 ```
 
-### whitelist *<username>*
+### whitelist *username*
 Adds a Minecraft user with the provided username to the server's whitelist.
 
 ## Getting Started
@@ -23,10 +23,10 @@ There's not really much to this app. Just run something like the following:
 ```
 docker create \
   --name=mcbot \
-  -e COMMAND_PREFIX=/ \
+  -e COMMAND_PREFIX='/' \
   -e DISCORD_TOKEN='<Your Discord bot token here!>' \
   -e RCON_HOST='localhost' \
-  -e RCON_PORT='25575' \
+  -e RCON_PORT=25575 \
   -e RCON_PASSWORD='<Your RCON password here!>' \
   --restart unless-stopped \
   jamjnsn/mcbot
