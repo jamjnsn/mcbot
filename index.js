@@ -9,8 +9,6 @@ const rconfig = {
 	password: process.env.RCON_PASSWORD || ''
 }
 
-console.log(rconfig);
-
 // Create Discord client
 const client = new Discord.Client();
 
