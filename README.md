@@ -21,7 +21,7 @@ Adds a Minecraft user with the provided username to the server's whitelist.
 There's not really much to this app. Just run something like the following:
 
 ```
-docker create \
+docker run \
   --name=mcbot \
   -e COMMAND_PREFIX='/' \
   -e DISCORD_TOKEN='<Your Discord bot token here!>' \
