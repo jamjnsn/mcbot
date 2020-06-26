@@ -36,7 +36,7 @@ client.on('message', message => {
 	} else if(command === 'say') {
 		let sayMessage = args.join(' ');
 		console.log(`[Discord] say: ${sayMessage}`);
-		rconClient.send(`/tellraw @a {"text":"[${message.member.nickname}] ${sayMessage}","color":"#7289da"}`);
+		rconClient.send(`/tellraw @a {"text":"[${message.member.displayName}] ${sayMessage}","color":"#7289da"}`);
 	}
 });
 
